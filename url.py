@@ -15,8 +15,6 @@ from sklearn import metrics
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Embedding
 from keras.layers import LSTM
-from keras import callbacks
-from keras.callbacks import CSVLogger
 from keras.layers import Convolution1D, MaxPooling1D, TimeDistributed, Bidirectional
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
