@@ -1,8 +1,5 @@
-from tkinter import messagebox
 from tkinter import *
-from tkinter import simpledialog
 import tkinter
-from tkinter import filedialog
 from tkinter.filedialog import askopenfilename
 
 from sklearn.model_selection import train_test_split
@@ -10,23 +7,16 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import numpy as np
 import random
-import sys
 import os
-import json
 from sklearn.linear_model import LogisticRegression
 import math
 from collections import Counter
 from sklearn import metrics
-import pickle
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Embedding
+from keras.layers import Dense, Activation, Embedding
 from keras.layers import LSTM
 from keras import callbacks
 from keras.callbacks import CSVLogger
-import keras
-import itertools
-from keras.callbacks import ModelCheckpoint, CSVLogger
-from keras import callbacks
 from keras.layers import Convolution1D, MaxPooling1D, TimeDistributed, Bidirectional
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
